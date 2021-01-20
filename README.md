@@ -6,7 +6,7 @@
 <b>Figure 1: Case study of LEVER.</b>
 </p>
 
-# Figure 1 visualizes the details of inverse attention correlations and the corresponding trading time in the time index chart of one randomly-chosen stock, stock A, on Dec 21, 2019.
+Figure 1 visualizes the details of inverse attention correlations and the corresponding trading time in the time index chart of one randomly-chosen stock, stock A, on Dec 21, 2019.
 
 As can be seen, two 30-minute moving time windows in the red dash box separately record the tradable moments captured by LEVER.
 We use a softmax function based on the dot products of any two column vectors in the learned outlier patterns $CshAttn(\cdot)$, and obtain the inverse attention correlations for both short-scope reader and long-scope reader, which are recorded by the strings of heatmap. 
